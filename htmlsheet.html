@@ -10,6 +10,8 @@
     <nav>
       <a href="./index.html">Home Page</a>
       <a href="./htmlsheet.html">HTML</a>
+      <a>CSS</a>
+      <a>JavaScript</a>
     </nav>  
     
     <nav>
@@ -28,17 +30,76 @@
       <img src="./htmlelement.jpg" width="320" height="240" alt="A diagram of html element showing that it is made up of a opening tap, the content and the closing tag."/>
     </div>
 
-      <div id="elements">
-        <h2>HTML Elements</h2>
-        <h3>Body</h3>
-        <p>The content inside the body element is what is displayed to the screen. This is how a body element looks like:</p>
-        <pre>
-          < body > 
-            "Content here"
-          < /body >
-        </pre>
-        
+    <div id="elements">
+      <h2><u>HTML Elements</u></h2>
+      
+      <h3><u>Body</u></h3>
+      <p>The body tag defines the documents body. The content inside the body element is what is displayed to the screen. This is how a body element looks like:</p>
+      <pre>
+        < body > 
+          "Content here"
+        < /body >
+      </pre>
+      <p>Content such as images, text and buttons are added here.</p></p>
 
+      <h3><u>Headings</u></h3>
+      <p>Headings are used to describe content such as titling and sections. There are 6 differnet headings where h1 is the largest and h6 is the smallest.</p>
+      <p>This is an example of h1:</p>
+      <pre>
+        < h1 > Heading element H1 < /h1 >
+        Which results in:
+      </pre>
+      <h1>Heading element H1</h1>
+      <p>This is an example of h6:</p>
+      <pre>
+        < h6 > Heading element H6 < /h6 >
+        Which results in:
+      </pre>
+      <h6>Heading element H6</h6>
+
+      <h3><u>Divs</u></h3>
+      <p>The div element is short for “division” or a container that divides the page into sections which is useful for grouping elemnts in HTML together and providing structure.</p>
+      <p>They don't contribute anything visually to the site but is useful when providing custom styles (css) as you can style specific divs.</p>
+      <p>Can also be used for navigation as you can choose to go to a specific part of the page using the div id.</p>
+      <pre>
+        < body >
+          < div > 
+            "Introduction"
+          < /div >
+
+          < div > 
+            "Main"
+          < /div >
+            
+          < div > 
+            "End"
+          < /div >
+            
+        < /body >
+      </pre>   
+          
+      <h3><u>Attributes</u></h3>
+      <p>Attributes are content added to the opening tag of an element. Made up of two parts: name of the attribute and value of the attribute </p>
+      <p>One example of an attribute is id which is used to specify differnet contents such as divs. So the updated div would look like this: </p>
+      <pre>
+        < body >
+          < div id="intro"> 
+            "Introduction"
+          < /div >
+
+          < div id="main"> 
+            "Main"
+          < /div >
+            
+          < div id="end"> 
+            "End"
+          < /div >
+            
+        < /body >
+      </pre>   
+
+      <h3><u>Display Text</u></h3>     
+      
     </div>
     <a href="/index.html">Click here to go back to home page.</a>
   </body>
