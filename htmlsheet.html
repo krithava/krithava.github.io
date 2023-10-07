@@ -167,15 +167,38 @@
       </ol>
 
       <h3><u>Images</u></h3>     
-      <p></p>
-      <p></p>
+      <p>The < img > tag allows you to add an image to a web page. It is a self-closing tag.</p>
+      <p>It has a required attribute called src which must be set to the source or the location of the image so the URL of the image.</p>
       <p>The following example will show you how to use to insert an image</p>
       <pre>
-         
+        < img src="html5icon.png" />
       </pre>
       <p>which results in:</p>
+      <img src="html5icon.png" />
+      <p>As you can see the image is very big so to make it smaller you can use the attibutes height and width. </p>
+      <p>The alt attribute is used to bring meaning to the images. Its used to give a short description of the image.</p>
+      <p>Its useful when the image fails to load on a web page as the user can mouse over the area and it will show the text description, also good for Search Engine Optimisation. </p>
+      <p>The following example will show you the updated img tag </p>
+      <pre>
+        < img src="html5icon.png" height = "300" width = "300" alt= "The logo of HTML5" />
+      </pre>
+      <p>which results in:</p>
+      <img src="html5icon.png" height="300" width="300" alt="The logo of HTML5"/>
 
-      
+      <h3><u>Videos</u></h3>     
+      <p>The < video > tag allows you to display a video to a web page. Requires an opening and closing tag.</p>
+      <p>It also has a required attribute called src which must be set to the source or the location of the video.</p>
+      <p>There is also an attribute called controls which will instruct the browser to include basic video controls such as pausing and playing.</p>
+      <p>The following example will show you how to use to insert an video</p>
+      <pre>
+        < video src="https://youtu.be/ok-plXXHlWw" width="320" height="240" controls>
+          Video not supported
+        < /video >
+      </pre>
+      <p>which results in:</p>
+      <video src="https://youtu.be/ok-plXXHlWw" width="320" height="240" controls>
+      Video not supported
+      </video>
     </div>
     <a href="/index.html">Click here to go back to home page.</a>
   </body>
