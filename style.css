@@ -1,16 +1,19 @@
-h1 {
+header h1 {
     color: black;
     text-align: center;
     padding: 20px;
-    font-size: 40px;
-
-    
+    font-size: 60px;
+}
+h2 {
+  color: black;
+  padding: 5px;
+  font-size: 20px;   
 }
 body {
   background-color: lightblue;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,13 +21,14 @@ ul {
   background-color: lightblue;
   border-style: solid;
   border-color: #0000ff;
+  justify-content: center; 
 }
 
-li {
-  float: left;
+nav li {
+  float: left; 
 }
 
-li a {
+nav li a {
   display: block;
   color: black;
   text-align: center;
@@ -32,10 +36,10 @@ li a {
   text-decoration: none;
 }
 
-a:hover:not(.active) {
-  background-color: #111;
+nav li a:hover:not(.active) {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.active {
+nav li.active {
   background-color:#04AA6D;
 }
