@@ -43,3 +43,13 @@ nav li a:hover:not(.active) {
 nav li.active {
   background-color:#04AA6D;
 }
+
+figure {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+figure:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
