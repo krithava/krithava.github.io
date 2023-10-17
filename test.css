@@ -81,8 +81,13 @@ padding: 0 10px;
 transition: background .5s; 
 }
 
+.nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+}
+
 .btn:hover, .nav ul li:hover {
-background: #117bff;
+background: #ffffff;
 cursor: pointer; 
 transition: background .5s;  
 }
