@@ -11,7 +11,11 @@ h2 {
 }
 body {
   background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
 
 nav ul {
   list-style-type: none;
